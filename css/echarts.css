@@ -1,0 +1,83 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background: #07151E;
+    font-family: "微软雅黑", Helvetica, Arial, sans-serif;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    background: #07151E;
+}
+ul li{
+    list-style: none;
+}
+.canvas{
+    display: inline-block;
+    width:32%;
+    height: 45%;
+    margin-left: 15px;
+    margin-top: 15px;
+    color:#44CFD8
+}
+#selectHeader{
+    width: 100%;
+}
+#selectHeader ul{
+    width: 100%;
+}
+#selectHeader ul li{
+  display: inline-block;
+}
+#selectHeader ul li select{
+    background: none;
+    outline: none;
+    border: 1px solid #2C4659;
+    color: #d1def5;
+    height: 30px;
+    line-height: 30px;
+}
+li select option{
+    background: #253B4B;
+    color: #d1def5;
+}
+.info_header_date label{
+    display: inline-block;
+    color:#d1def5 ;
+    font-size: 12px;
+    margin-left: 10px;
+}
+.info_header_date label input{
+    background:none;
+    outline: none;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #2C4659;
+}
+.hasDatepicker{
+    width: 103px;
+    height: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+    background: #172936;
+    border: 1px solid #4f5c65;
+    outline:none;
+    padding-left: 5px;
+    font-size: 12px;
+    color: #94a4c2;
+    margin-left:10px;
+}
+.info_header_date label i{
+    display: inline-block;
+    position: relative;
+    left:-25px;
+    top:7px;
+    width: 20px;
+    height: 20px;
+    background: url("../images/shijian.png") no-repeat;
+}
+.gridTable{ border-collapse:collapse;background: #70A3F9;}
+.gridTable td{ border:1px solid rgba(255,255,255,.5); width:80px; height:25px; text-align:center;}
+.gridTable tr{ border:1px solid rgba(255,255,255,.5);}
